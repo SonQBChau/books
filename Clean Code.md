@@ -58,6 +58,10 @@ I know that I should write more tests. However, my argument here is that without
 >Comments should say things that the code cannot say for itself.
 
 (Page 317). 
+
+Poorly Written Comment
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1OTEyNjQ2Nyw4MzE4OTI4NTBdfQ==
+eyJoaXN0b3J5IjpbLTE0NjIwMDQ3MTQsODMxODkyODUwXX0=
 -->
