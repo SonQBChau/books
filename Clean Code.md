@@ -33,11 +33,8 @@ I know that I should write more tests. However, my argument here is that without
 **Inappropriate Information**
 > In general, meta-data such as authors, lastmodified-date, SPR number, and so on should not appear in comments. Comments should be reserved for technical notes about the code and design.
 
-
 **Obsolete Comment**
->A comment that has gotten old, irrelevant, and incorrect is obsolete. Comments get old quickly. It is best not to write a comment that will become obsolete. If you find an obsolete comment, it is best to update it or get rid of it as quickly as possible. Obsolete comments tend to migrate away from the code they once described. They become floating islands of irrelevance and misdirection in the code.
-
-(Page 317). 
+>A comment that has gotten old, irrelevant, and incorrect is obsolete. Get rid of it as quickly as possible. 
 
 **Redundant Comment**
 >A comment is redundant if it describes something that adequately describes itself. For example: 
@@ -55,8 +52,6 @@ I know that I should write more tests. However, my argument here is that without
 
 >Comments should say things that the code cannot say for itself.
 
-(Page 317). 
-
 **Poorly Written Comment**
 >A comment worth writing is worth writing well. If you are going to write a comment, take the time to make sure it is the best comment you can write. Choose your words carefully. Use correct grammar and punctuation. Don’t ramble. Don’t state the obvious. Be brief.
 
@@ -69,5 +64,5 @@ I know that I should write more tests. However, my argument here is that without
 
 (Page 318). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MjYwMjc5OCw4MzE4OTI4NTBdfQ==
+eyJoaXN0b3J5IjpbOTk4NDAwNDc1LDgzMTg5Mjg1MF19
 -->
