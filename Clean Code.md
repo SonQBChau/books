@@ -36,9 +36,12 @@ I know that I should write more tests. However, my argument here is that without
 
 (Page 317). 
 
-Obsolete Comment
+**Obsolete Comment**
+>A comment that has gotten old, irrelevant, and incorrect is obsolete. Comments get old quickly. It is best not to write a comment that will become obsolete. If you find an obsolete comment, it is best to update it or get rid of it as quickly as possible. Obsolete comments tend to migrate away from the code they once described. They become floating islands of irrelevance and misdirection in the code.
 
 (Page 317). 
+
+**Redundant Comment**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjE3NDczMzQsODMxODkyODUwXX0=
+eyJoaXN0b3J5IjpbLTE3ODY3NTc4NTcsODMxODkyODUwXX0=
 -->
