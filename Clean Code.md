@@ -29,12 +29,16 @@ I know that I should write more tests. However, my argument here is that without
 
 
 ## Chapter 17: Smells and Heuristics
-
-(Page 317). 
-
 ### Comments
 **Inappropriate Information**
 
+> It is inappropriate for a comment to hold information better held in a different kind of system such as your source code control system, your issue tracking system, or any other record-keeping system. Change histories, for example, just clutter up source files with volumes of historical and uninteresting text. In general, meta-data such as authors, lastmodified-date, SPR number, and so on should not appear in comments. Comments should be reserved for technical notes about the code and design.
+
+(Page 317). 
+
+Obsolete Comment
+
+(Page 317). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNDIzODA2MSw4MzE4OTI4NTBdfQ==
+eyJoaXN0b3J5IjpbLTEwMjE3NDczMzQsODMxODkyODUwXX0=
 -->
