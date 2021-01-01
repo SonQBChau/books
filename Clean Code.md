@@ -28,10 +28,13 @@ This is true. So how do we fix this? Luckily, the author offer the solution
 I know that I should write more tests. However, my argument here is that without proper defined requirements, changing the approach would have to change the test case also. That would leave me 2 places to fix, one in my development code and one in my test code. Maybe the way I write my test code is wrong. Anyway, this is a good point to work on my testing habit
 
 
-**Chapter 17: Smells and Heuristics**
+## Chapter 17: Smells and Heuristics
+
 (Page 317). 
 
-**Comments**
+### Comments
+**Inappropriate Information**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcyOTM2MTE2LDgzMTg5Mjg1MF19
+eyJoaXN0b3J5IjpbLTcwNDIzODA2MSw4MzE4OTI4NTBdfQ==
 -->
