@@ -42,6 +42,17 @@ I know that I should write more tests. However, my argument here is that without
 (Page 317). 
 
 **Redundant Comment**
+>A comment is redundant if it describes something that adequately describes itself. For example: 
+
+    i++; // increment i 
+
+>Another example is a Javadoc that says nothing more than (or even less than) the function signature: 
+
+    /** * @param sellRequest * @return * @throws ManagedComponentException */ public SellResponse beginSellItem(SellRequest sellRequest) throws ManagedComponentException 
+
+>Comments should say things that the code cannot say for itself.
+
+(Page 317). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODY3NTc4NTcsODMxODkyODUwXX0=
+eyJoaXN0b3J5IjpbLTE1MTAyNTUxLDgzMTg5Mjg1MF19
 -->
