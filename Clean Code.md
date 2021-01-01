@@ -53,7 +53,7 @@ I know that I should write more tests. However, my argument here is that without
 >Comments should say things that the code cannot say for itself.
 
 **Poorly Written Comment**
->A comment worth writing is worth writing well. If you are going to write a comment, take the time to make sure it is the best comment you can write. Choose your words carefully. Use correct grammar and punctuation. Don’t ramble. Don’t state the obvious. Be brief.
+>Don’t ramble. Don’t state the obvious. Be brief.
 
 (Page 318). 
 
@@ -64,5 +64,5 @@ I know that I should write more tests. However, my argument here is that without
 
 (Page 318). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk4NDAwNDc1LDgzMTg5Mjg1MF19
+eyJoaXN0b3J5IjpbMTg4MzAxNTgzNiw4MzE4OTI4NTBdfQ==
 -->
