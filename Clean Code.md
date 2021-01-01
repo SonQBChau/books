@@ -31,10 +31,8 @@ I know that I should write more tests. However, my argument here is that without
 ## Chapter 17: Smells and Heuristics
 ### Comments
 **Inappropriate Information**
+> In general, meta-data such as authors, lastmodified-date, SPR number, and so on should not appear in comments. Comments should be reserved for technical notes about the code and design.
 
-> It is inappropriate for a comment to hold information better held in a different kind of system such as your source code control system, your issue tracking system, or any other record-keeping system. Change histories, for example, just clutter up source files with volumes of historical and uninteresting text. In general, meta-data such as authors, lastmodified-date, SPR number, and so on should not appear in comments. Comments should be reserved for technical notes about the code and design.
-
-(Page 317). 
 
 **Obsolete Comment**
 >A comment that has gotten old, irrelevant, and incorrect is obsolete. Comments get old quickly. It is best not to write a comment that will become obsolete. If you find an obsolete comment, it is best to update it or get rid of it as quickly as possible. Obsolete comments tend to migrate away from the code they once described. They become floating islands of irrelevance and misdirection in the code.
@@ -71,5 +69,5 @@ I know that I should write more tests. However, my argument here is that without
 
 (Page 318). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE3NTY2NDIyLDgzMTg5Mjg1MF19
+eyJoaXN0b3J5IjpbMTY2MjYwMjc5OCw4MzE4OTI4NTBdfQ==
 -->
