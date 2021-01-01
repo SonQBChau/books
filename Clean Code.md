@@ -48,11 +48,16 @@ I know that I should write more tests. However, my argument here is that without
 
 >Another example is a Javadoc that says nothing more than (or even less than) the function signature: 
 
-    /** * @param sellRequest * @return * @throws ManagedComponentException */ public SellResponse beginSellItem(SellRequest sellRequest) throws ManagedComponentException 
+    /** 
+     * @param sellRequest 
+     * @return 
+     * @throws ManagedComponentException 
+     * / 
+    public SellResponse beginSellItem(SellRequest sellRequest) throws ManagedComponentException 
 
 >Comments should say things that the code cannot say for itself.
 
 (Page 317). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTAyNTUxLDgzMTg5Mjg1MF19
+eyJoaXN0b3J5IjpbMTA1OTEyNjQ2Nyw4MzE4OTI4NTBdfQ==
 -->
