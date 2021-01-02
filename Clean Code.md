@@ -59,7 +59,19 @@ I know that I should write more tests. However, my argument here is that without
 **Commented-Out Code**
 >When you see commented-out code, delete it! Don’t worry, the source code control system still remembers it. If anyone really needs it, he or she can go back and check out a previous version. Don’t suffer commented-out code to survive.
 
+### Functions  
+**Too Many Arguments**
+>Functions should have a small number of arguments. No argument is best, followed by one, two, and three. More than three is very questionable and should be avoided with prejudice. 
+
+F2: Output Arguments
+
+Output arguments are counterintuitive. Readers expect arguments to be inputs, not out- puts. If your function must change the state of something, have it change the state of the object it is called on. (See “Output Arguments” on page 45.)
+
+F3: Flag Arguments  
+Boolean arguments loudly declare that the function does more than one thing. They are
+
+confusing and should be eliminated. (See “Flag Arguments” on page 41.)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NzYxMjk4NCwxODgzMDE1ODM2LDgzMT
-g5Mjg1MF19
+eyJoaXN0b3J5IjpbOTMxMDQ5ODY2LC01NDc2MTI5ODQsMTg4Mz
+AxNTgzNiw4MzE4OTI4NTBdfQ==
 -->
