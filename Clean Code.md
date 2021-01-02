@@ -73,8 +73,12 @@ I know that I should write more tests. However, my argument here is that without
 **Dead Function**
 >Methods that are never called should be discarded. Keeping dead code around is wasteful.
 
-General
+### General
+**Incorrect Behavior at the Boundaries**
+
+>It seems obvious to say that code should behave correctly. The problem is that we seldom realize just how complicated correct behavior is. Developers often write functions that they think will work, and then trust their intuition rather than going to the effort to prove that their code works in all the corner and boundary cases.
+There is no replacement for due diligence. Every boundary condition, every corner case, every quirk and exception represents something that can confound an elegant and intuitive algorithm. Don’t rely on your intuition. Look for every boundary condition and write a test for it.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMjYyMDYzMyw5MzEwNDk4NjYsLTU0Nz
+eyJoaXN0b3J5IjpbLTM3MDQ1ODQ2Miw5MzEwNDk4NjYsLTU0Nz
 YxMjk4NCwxODgzMDE1ODM2LDgzMTg5Mjg1MF19
 -->
