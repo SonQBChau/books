@@ -69,7 +69,10 @@ I know that I should write more tests. However, my argument here is that without
 
 **Flag Arguments**  
 >Boolean arguments loudly declare that the function does more than one thing. They are confusing and should be eliminated.
+
+**Dead Function**
+>Methods that are never called should be discarded. Keeping dead code around is wasteful.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjI4ODU4NDQsOTMxMDQ5ODY2LC01ND
-c2MTI5ODQsMTg4MzAxNTgzNiw4MzE4OTI4NTBdfQ==
+eyJoaXN0b3J5IjpbLTQ3MTE2OTE3NSw5MzEwNDk4NjYsLTU0Nz
+YxMjk4NCwxODgzMDE1ODM2LDgzMTg5Mjg1MF19
 -->
