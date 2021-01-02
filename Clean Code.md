@@ -78,7 +78,20 @@ I know that I should write more tests. However, my argument here is that without
 
 >It seems obvious to say that code should behave correctly. The problem is that we seldom realize just how complicated correct behavior is. Developers often write functions that they think will work, and then trust their intuition rather than going to the effort to prove that their code works in all the corner and boundary cases.
 There is no replacement for due diligence. Every boundary condition, every corner case, every quirk and exception represents something that can confound an elegant and intuitive algorithm. Don’t rely on your intuition. Look for every boundary condition and write a test for it.
+
+**Obscured Intent**
+
+We want code to be as expressive as possible. Run-on expressions, Hungarian notation, and magic numbers all obscure the author’s intent. For example, here is the overTimePay function as it might have appeared:
+
+    public int m_otCalc() { 
+	    return iThsWkd * iThsRte +
+	    (int) Math.round(0.5 * iThsRte * Math.max(0, iThsWkd - 400)
+    
+    ); }
+
+Small and dense as this might appear, it’s also virtually impenetrable. It is worth tak- ing the time to make the intent of our code visible to our readers.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MDQ1ODQ2Miw5MzEwNDk4NjYsLTU0Nz
-YxMjk4NCwxODgzMDE1ODM2LDgzMTg5Mjg1MF19
+eyJoaXN0b3J5IjpbNTE2NjU4ODE4LC0zNzA0NTg0NjIsOTMxMD
+Q5ODY2LC01NDc2MTI5ODQsMTg4MzAxNTgzNiw4MzE4OTI4NTBd
+fQ==
 -->
