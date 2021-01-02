@@ -61,17 +61,15 @@ I know that I should write more tests. However, my argument here is that without
 
 ### Functions  
 **Too Many Arguments**
->Functions should have a small number of arguments. No argument is best, followed by one, two, and three. More than three is very questionable and should be avoided with prejudice. 
+>Functions should have a small number of arguments. No argument is best, followed by one, two, and three. More than three is very questionable and should be avoided. 
 
-Output Arguments
+**Output Arguments**
 
-Output arguments are counterintuitive. Readers expect arguments to be inputs, not out- puts. If your function must change the state of something, have it change the state of the object it is called on. (See “Output Arguments” on page 45.)
+>Output arguments are counterintuitive. Readers expect arguments to be inputs, not outputs. If your function must change the state of something, have it change the state of the object it is called on.
 
-F3: Flag Arguments  
-Boolean arguments loudly declare that the function does more than one thing. They are
-
-confusing and should be eliminated. (See “Flag Arguments” on page 41.)
+**Flag Arguments**  
+>Boolean arguments loudly declare that the function does more than one thing. They are confusing and should be eliminated.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNDg2NDcxMiw5MzEwNDk4NjYsLTU0Nz
-YxMjk4NCwxODgzMDE1ODM2LDgzMTg5Mjg1MF19
+eyJoaXN0b3J5IjpbLTE4NjI4ODU4NDQsOTMxMDQ5ODY2LC01ND
+c2MTI5ODQsMTg4MzAxNTgzNiw4MzE4OTI4NTBdfQ==
 -->
