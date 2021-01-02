@@ -72,7 +72,9 @@ I know that I should write more tests. However, my argument here is that without
 
 **Dead Function**
 >Methods that are never called should be discarded. Keeping dead code around is wasteful.
+
+General
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MTE2OTE3NSw5MzEwNDk4NjYsLTU0Nz
+eyJoaXN0b3J5IjpbLTgzMjYyMDYzMyw5MzEwNDk4NjYsLTU0Nz
 YxMjk4NCwxODgzMDE1ODM2LDgzMTg5Mjg1MF19
 -->
