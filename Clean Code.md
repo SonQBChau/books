@@ -55,13 +55,11 @@ I know that I should write more tests. However, my argument here is that without
 **Poorly Written Comment**
 >Don’t ramble. Don’t state the obvious. Be brief.
 
-(Page 318). 
 
 **Commented-Out Code**
 >When you see commented-out code, delete it! Don’t worry, the source code control system still remembers it. If anyone really needs it, he or she can go back and check out a previous version. Don’t suffer commented-out code to survive.
 
-(Page 318). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTY3MjYwNzIsMTg4MzAxNTgzNiw4Mz
-E4OTI4NTBdfQ==
+eyJoaXN0b3J5IjpbLTU0NzYxMjk4NCwxODgzMDE1ODM2LDgzMT
+g5Mjg1MF19
 -->
