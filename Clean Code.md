@@ -81,17 +81,17 @@ There is no replacement for due diligence. Every boundary condition, every corne
 
 **Obscured Intent**
 
-We want code to be as expressive as possible. Run-on expressions, Hungarian notation, and magic numbers all obscure the author’s intent. For example, here is the overTimePay function as it might have appeared:
+>We want code to be as expressive as possible. Run-on expressions, Hungarian notation, and magic numbers all obscure the author’s intent. For example, here is the overTimePay function as it might have appeared:
 
     public int m_otCalc() { 
 	    return iThsWkd * iThsRte +
-	    (int) Math.round(0.5 * iThsRte * Math.max(0, iThsWkd - 400)
-    
+		    (int) Math.round(0.5 * iThsRte * 
+		    Math.max(0, iThsWkd - 400)
     ); }
 
-Small and dense as this might appear, it’s also virtually impenetrable. It is worth tak- ing the time to make the intent of our code visible to our readers.
+>Small and dense as this might appear, it’s also virtually impenetrable. It is worth tak- ing the time to make the intent of our code visible to our readers.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE2NjU4ODE4LC0zNzA0NTg0NjIsOTMxMD
+eyJoaXN0b3J5IjpbNTk0ODA3MTQ0LC0zNzA0NTg0NjIsOTMxMD
 Q5ODY2LC01NDc2MTI5ODQsMTg4MzAxNTgzNiw4MzE4OTI4NTBd
 fQ==
 -->
