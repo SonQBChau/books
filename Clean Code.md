@@ -58,11 +58,10 @@ I know that I should write more tests. However, my argument here is that without
 (Page 318). 
 
 **Commented-Out Code**
->It makes me crazy to see stretches of code that are commented out. Who knows how old it is? Who knows whether or not it’s meaningful? Yet no one will delete it because everyone assumes someone else needs it or has plans for it. 
->That code sits there and rots, getting less and less relevant with every passing day. It calls functions that no longer exist. It uses variables whose names have changed. It follows conventions that are long obsolete. It pollutes the modules that contain it and distracts the people who try to read it. Commented-out code is an abomination. 
 >When you see commented-out code, delete it! Don’t worry, the source code control system still remembers it. If anyone really needs it, he or she can go back and check out a previous version. Don’t suffer commented-out code to survive.
 
 (Page 318). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MzAxNTgzNiw4MzE4OTI4NTBdfQ==
+eyJoaXN0b3J5IjpbLTE5MTY3MjYwNzIsMTg4MzAxNTgzNiw4Mz
+E4OTI4NTBdfQ==
 -->
