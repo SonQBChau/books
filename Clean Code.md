@@ -89,9 +89,19 @@ There is no replacement for due diligence. Every boundary condition, every corne
 		    Math.max(0, iThsWkd - 400)
     ); }
 
->Small and dense as this might appear, it’s also virtually impenetrable. It is worth tak- ing the time to make the intent of our code visible to our readers.
+>Small and dense as this might appear, it’s also virtually impenetrable. It is worth taking the time to make the intent of our code visible to our readers.
+
+Function Names Should Say What They Do
+
+Look at this code:
+
+Date newDate = date.add(5);
+
+Would you expect this to add five days to the date? Or is it weeks, or hours? Is the date instance changed or does the function just return a new Date without changing the old one? You can’t tell from the call what the function does.
+
+If the function adds five days to the date and changes the date, then it should be called addDaysTo or increaseByDays. If, on the other hand, the function returns a new date that is five days later but does not change the date instance, it should be called daysLater or daysSince.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk0ODA3MTQ0LC0zNzA0NTg0NjIsOTMxMD
-Q5ODY2LC01NDc2MTI5ODQsMTg4MzAxNTgzNiw4MzE4OTI4NTBd
-fQ==
+eyJoaXN0b3J5IjpbLTIwMTg3NTM0NzUsNTk0ODA3MTQ0LC0zNz
+A0NTg0NjIsOTMxMDQ5ODY2LC01NDc2MTI5ODQsMTg4MzAxNTgz
+Niw4MzE4OTI4NTBdfQ==
 -->
