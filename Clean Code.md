@@ -98,12 +98,12 @@ There is no replacement for due diligence. Every boundary condition, every corne
     Date newDate = date.add(5);
 
 >Would you expect this to add five days to the date? Or is it weeks, or hours? Is the date instance changed or does the function just return a new Date without changing the old one? You can’t tell from the call what the function does.
->If the function adds five days to the date and changes the date, then it should be called *addDaysTo* or *increaseByDays*. If, on the other hand, the function returns a new date that is five days later but does not change the date instance, it should be called daysLater or daysSince.
+>If the function adds five days to the date and changes the date, then it should be called *addDaysTo* or *increaseByDays*. If, on the other hand, the function returns a new date that is five days later but does not change the date instance, it should be called *daysLater* or *daysSince*.
 
 **Understand the Algorithm**
 >Often the best way to gain this knowledge and understanding is to refactor the function into something that is so clean and expressive that it is obvious how it works.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTU5NTUzNTksNTk0ODA3MTQ0LC0zNz
-A0NTg0NjIsOTMxMDQ5ODY2LC01NDc2MTI5ODQsMTg4MzAxNTgz
-Niw4MzE4OTI4NTBdfQ==
+eyJoaXN0b3J5IjpbNTk2NDYwNTQ5LDU5NDgwNzE0NCwtMzcwND
+U4NDYyLDkzMTA0OTg2NiwtNTQ3NjEyOTg0LDE4ODMwMTU4MzYs
+ODMxODkyODUwXX0=
 -->
