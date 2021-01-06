@@ -168,10 +168,13 @@ There is no replacement for due diligence. Every boundary condition, every corne
 >The configuration constants reside at a very high level and are easy to change. They get passed down to the rest of the application. The lower levels of the application do not own the values of these constants.
 
 **Avoid Transitive Navigation**
+>In general we don’t want a single module to know much about its collaborators. More spe- cifically, if A collaborates with B, and B collaborates with C, we don’t want modules that use A to know about C. (For example, we don’t want `a.getB().getC().doSomething();`.)
+>Rather we want our immediate collaborators to offer all the services we need. We should not have to roam through the object graph of the system, hunting for the method we want to call. Rather we should simply be able to say:
+myCollaborator.doSomething().
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MDkyOTU1NywtMTE5MjEyMTMwMyw4Nz
-E3MTI5NTAsNTk2NDYwNTQ5LDU5NDgwNzE0NCwtMzcwNDU4NDYy
-LDkzMTA0OTg2NiwtNTQ3NjEyOTg0LDE4ODMwMTU4MzYsODMxOD
-kyODUwXX0=
+eyJoaXN0b3J5IjpbMTAxNDM2NjU5LC0xMTkyMTIxMzAzLDg3MT
+cxMjk1MCw1OTY0NjA1NDksNTk0ODA3MTQ0LC0zNzA0NTg0NjIs
+OTMxMDQ5ODY2LC01NDc2MTI5ODQsMTg4MzAxNTgzNiw4MzE4OT
+I4NTBdfQ==
 -->
