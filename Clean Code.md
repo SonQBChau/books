@@ -185,18 +185,23 @@ There is no replacement for due diligence. Every boundary condition, every corne
 	    	    q += 10 + (l[z + 1] + l[z + 2]);
 	    	    z += 1; 
 	    	}
-    	    else if (l[z] + l[z + 1] == 10) {
-    	    q += 10 + l[z + 2];
-    	    z += 2; } else {
-    	    q += l[z] + l[z + 1];
-    	    z += 2; }
+    	    else if (l[z] + l[z + 1] == 10) 
+    	    {
+	    	    q += 10 + l[z + 2];
+	    	    z += 2; 
+	    	} 
+	    	else 
+	    	{
+	    	    q += l[z] + l[z + 1];
+	    	    z += 2; 
     	    }
-    	    return q; 
+    	  }
+    	  return q; 
         }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ3OTMyNjMsMTIyOTY2NTQyNCwtMTE5Mj
-EyMTMwMyw4NzE3MTI5NTAsNTk2NDYwNTQ5LDU5NDgwNzE0NCwt
-MzcwNDU4NDYyLDkzMTA0OTg2NiwtNTQ3NjEyOTg0LDE4ODMwMT
-U4MzYsODMxODkyODUwXX0=
+eyJoaXN0b3J5IjpbLTM5NzUxNjk0NywxMjI5NjY1NDI0LC0xMT
+kyMTIxMzAzLDg3MTcxMjk1MCw1OTY0NjA1NDksNTk0ODA3MTQ0
+LC0zNzA0NTg0NjIsOTMxMDQ5ODY2LC01NDc2MTI5ODQsMTg4Mz
+AxNTgzNiw4MzE4OTI4NTBdfQ==
 -->
