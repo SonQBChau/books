@@ -143,12 +143,14 @@ There is no replacement for due diligence. Every boundary condition, every corne
 
     int nextLevel = level + 1; if(nextLevel < tags.length) 
     {
-    parts = new Parse(body, tags, nextLevel, offset + endTag);
-    
-    body = null; }
+	    parts = new Parse(body, tags, nextLevel, offset + endTag);
+	    body = null; 
+    }
+
+**Keep Configurable Data at High Levels**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NjcxNTE3MSw4NzE3MTI5NTAsNTk2ND
+eyJoaXN0b3J5IjpbLTY2MDY4MDUyNSw4NzE3MTI5NTAsNTk2ND
 YwNTQ5LDU5NDgwNzE0NCwtMzcwNDU4NDYyLDkzMTA0OTg2Niwt
 NTQ3NjEyOTg0LDE4ODMwMTU4MzYsODMxODkyODUwXX0=
 -->
