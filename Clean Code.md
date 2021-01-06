@@ -172,11 +172,26 @@ There is no replacement for due diligence. Every boundary condition, every corne
 >
 >Rather we want our immediate collaborators to offer all the services we need. We should not have to roam through the object graph of the system, hunting for the method we want to call. Rather we should simply be able to say: `myCollaborator.doSomething().`
 
+**Choose Descriptive Names**
+>Don’t be too quick to choose a name. Make sure the name is descriptive. Remember that meanings tend to drift as software evolves, so frequently reevaluate the appropriateness of the names you choose.
+>Consider the code below:
+public int x() { int q = 0; int z = 0;
 
+for (int kk = 0; kk < 10; kk++) { if (l[z] == 10)  
+{
+q += 10 + (l[z + 1] + l[z + 2]);
+z += 1; }
+else if (l[z] + l[z + 1] == 10) {
+q += 10 + l[z + 2];
+z += 2; } else {
+q += l[z] + l[z + 1];
+z += 2; }
+}
+return q; }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyOTY2NTQyNCwtMTE5MjEyMTMwMyw4Nz
-E3MTI5NTAsNTk2NDYwNTQ5LDU5NDgwNzE0NCwtMzcwNDU4NDYy
-LDkzMTA0OTg2NiwtNTQ3NjEyOTg0LDE4ODMwMTU4MzYsODMxOD
-kyODUwXX0=
+eyJoaXN0b3J5IjpbLTExNjgzMzQyMDcsMTIyOTY2NTQyNCwtMT
+E5MjEyMTMwMyw4NzE3MTI5NTAsNTk2NDYwNTQ5LDU5NDgwNzE0
+NCwtMzcwNDU4NDYyLDkzMTA0OTg2NiwtNTQ3NjEyOTg0LDE4OD
+MwMTU4MzYsODMxODkyODUwXX0=
 -->
