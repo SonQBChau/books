@@ -130,8 +130,25 @@ There is no replacement for due diligence. Every boundary condition, every corne
 	    e.deliverPay(pay);
     }
 
+**Encapsulate Boundary Conditions**
+>Boundary conditions are hard to keep track of. Put the processing for them in one place. Don’t let them leak all over the code. We don’t want swarms of +1s and -1s scattered hither and yon. Consider this simple example from FIT:
+
+    if(level + 1 < tags.length) 
+    {
+	    parts = new Parse(body, tags, level + 1, offset + endTag);
+	    body = null; 
+	}
+
+>Notice that level+1 appears twice. This is a boundary condition that should be encapsu- lated within a variable named something like nextLevel.
+
+    int nextLevel = level + 1; if(nextLevel < tags.length) 
+    {
+    parts = new Parse(body, tags, nextLevel, offset + endTag);
+    
+    body = null; }
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcxNzEyOTUwLDU5NjQ2MDU0OSw1OTQ4MD
-cxNDQsLTM3MDQ1ODQ2Miw5MzEwNDk4NjYsLTU0NzYxMjk4NCwx
-ODgzMDE1ODM2LDgzMTg5Mjg1MF19
+eyJoaXN0b3J5IjpbMTA3NjcxNTE3MSw4NzE3MTI5NTAsNTk2ND
+YwNTQ5LDU5NDgwNzE0NCwtMzcwNDU4NDYyLDkzMTA0OTg2Niwt
+NTQ3NjEyOTg0LDE4ODMwMTU4MzYsODMxODkyODUwXX0=
 -->
