@@ -104,9 +104,32 @@ There is no replacement for due diligence. Every boundary condition, every corne
 >Often the best way to gain this knowledge and understanding is to refactor the function into something that is so clean and expressive that it is obvious how it works.
 
 **Functions Should Do One Thing**
->It is often tempting to create functions that have multiple sections that perform a series of operations. Functions of this kind do more than one thing, and should be converted into many smaller functions, each of which does one thing.
+>It is often tempting to create functions that have multiple sections that perform a series of operations. Functions of this kind do more than one thing, and should be converted into many smaller functions, each of which does one thing. 
+>For example:
+
+    public void pay() {  
+		for (Employee e : employees) {
+			if (e.isPayday()) {  
+				Money pay = e.calculatePay(); e.deliverPay(pay);
+			} 
+		}
+	}
+>This bit of code does three things. It loops over all the employees, checks to see whether each employee ought to be paid, and then pays the employee. This code would be better written as:
+>
+public void pay() {  
+for (Employee e : employees)
+
+payIfNecessary(e); }
+
+private void payIfNecessary(Employee e) { if (e.isPayday())
+
+calculateAndDeliverPay(e); }
+
+private void calculateAndDeliverPay(Employee e) { Money pay = e.calculatePay(); e.deliverPay(pay);
+
+}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MzM5MTYxNSw1OTY0NjA1NDksNTk0OD
+eyJoaXN0b3J5IjpbMTcxODAzNjc3Miw1OTY0NjA1NDksNTk0OD
 A3MTQ0LC0zNzA0NTg0NjIsOTMxMDQ5ODY2LC01NDc2MTI5ODQs
 MTg4MzAxNTgzNiw4MzE4OTI4NTBdfQ==
 -->
