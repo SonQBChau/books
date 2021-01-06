@@ -167,9 +167,11 @@ There is no replacement for due diligence. Every boundary condition, every corne
 
 >The configuration constants reside at a very high level and are easy to change. They get passed down to the rest of the application. The lower levels of the application do not own the values of these constants.
 
+**Avoid Transitive Navigation**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTIxMjEzMDMsODcxNzEyOTUwLDU5Nj
-Q2MDU0OSw1OTQ4MDcxNDQsLTM3MDQ1ODQ2Miw5MzEwNDk4NjYs
-LTU0NzYxMjk4NCwxODgzMDE1ODM2LDgzMTg5Mjg1MF19
+eyJoaXN0b3J5IjpbMTk2MDkyOTU1NywtMTE5MjEyMTMwMyw4Nz
+E3MTI5NTAsNTk2NDYwNTQ5LDU5NDgwNzE0NCwtMzcwNDU4NDYy
+LDkzMTA0OTg2NiwtNTQ3NjEyOTg0LDE4ODMwMTU4MzYsODMxOD
+kyODUwXX0=
 -->
