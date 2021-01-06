@@ -204,24 +204,23 @@ There is no replacement for due diligence. Every boundary condition, every corne
 	    int score = 0;  
 	    int frame = 0;  
 	    for (int frameNumber = 0; frameNumber < 10; frameNumber++) {
-	    
-	    if (isStrike(frame)) {  
-	    score += 10 + nextTwoBallsForStrike(frame); frame += 1;
-	    
-	    } else if (isSpare(frame)) {  
-	        score += 10 + nextBallForSpare(frame); frame += 2;
-	        
-	    } else {  
-	        score += twoBallsInFrame(frame); frame += 2;
-	        
-	        } }
-	        
+		    if (isStrike(frame)) {  
+			    score += 10 + nextTwoBallsForStrike(frame); 
+			    frame += 1;
+		    } else if (isSpare(frame)) {  
+		        score += 10 + nextBallForSpare(frame); 
+		        frame += 2;
+		    } else {  
+		        score += twoBallsInFrame(frame); 
+		        frame += 2;
+		    } 
+		}
 	    return score; 
 	}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTgwMTUzNTIsMTIyOTY2NTQyNCwtMT
-E5MjEyMTMwMyw4NzE3MTI5NTAsNTk2NDYwNTQ5LDU5NDgwNzE0
-NCwtMzcwNDU4NDYyLDkzMTA0OTg2NiwtNTQ3NjEyOTg0LDE4OD
-MwMTU4MzYsODMxODkyODUwXX0=
+eyJoaXN0b3J5IjpbLTIzNjc5MjgwMiwxMjI5NjY1NDI0LC0xMT
+kyMTIxMzAzLDg3MTcxMjk1MCw1OTY0NjA1NDksNTk0ODA3MTQ0
+LC0zNzA0NTg0NjIsOTMxMDQ5ODY2LC01NDc2MTI5ODQsMTg4Mz
+AxNTgzNiw4MzE4OTI4NTBdfQ==
 -->
