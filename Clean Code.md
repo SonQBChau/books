@@ -102,8 +102,11 @@ There is no replacement for due diligence. Every boundary condition, every corne
 
 **Understand the Algorithm**
 >Often the best way to gain this knowledge and understanding is to refactor the function into something that is so clean and expressive that it is obvious how it works.
+
+**Functions Should Do One Thing**
+>It is often tempting to create functions that have multiple sections that perform a series of operations. Functions of this kind do more than one thing, and should be converted into many smaller functions, each of which does one thing.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk2NDYwNTQ5LDU5NDgwNzE0NCwtMzcwND
-U4NDYyLDkzMTA0OTg2NiwtNTQ3NjEyOTg0LDE4ODMwMTU4MzYs
-ODMxODkyODUwXX0=
+eyJoaXN0b3J5IjpbMTA5MzM5MTYxNSw1OTY0NjA1NDksNTk0OD
+A3MTQ0LC0zNzA0NTg0NjIsOTMxMDQ5ODY2LC01NDc2MTI5ODQs
+MTg4MzAxNTgzNiw4MzE4OTI4NTBdfQ==
 -->
