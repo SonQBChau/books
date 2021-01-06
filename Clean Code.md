@@ -115,21 +115,23 @@ There is no replacement for due diligence. Every boundary condition, every corne
 		}
 	}
 >This bit of code does three things. It loops over all the employees, checks to see whether each employee ought to be paid, and then pays the employee. This code would be better written as:
->
-public void pay() {  
-for (Employee e : employees)
 
-payIfNecessary(e); }
+    public void pay() {  
+	    for (Employee e : employees)
+		    payIfNecessary(e); 
+	}
+    
+    private void payIfNecessary(Employee e) { 
+	    if (e.isPayday())
+		    calculateAndDeliverPay(e); }
+    
+    private void calculateAndDeliverPay(Employee e) { 
+	    Money pay = e.calculatePay(); 
+	    e.deliverPay(pay);
+    }
 
-private void payIfNecessary(Employee e) { if (e.isPayday())
-
-calculateAndDeliverPay(e); }
-
-private void calculateAndDeliverPay(Employee e) { Money pay = e.calculatePay(); e.deliverPay(pay);
-
-}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxODAzNjc3Miw1OTY0NjA1NDksNTk0OD
-A3MTQ0LC0zNzA0NTg0NjIsOTMxMDQ5ODY2LC01NDc2MTI5ODQs
-MTg4MzAxNTgzNiw4MzE4OTI4NTBdfQ==
+eyJoaXN0b3J5IjpbODcxNzEyOTUwLDU5NjQ2MDU0OSw1OTQ4MD
+cxNDQsLTM3MDQ1ODQ2Miw5MzEwNDk4NjYsLTU0NzYxMjk4NCwx
+ODgzMDE1ODM2LDgzMTg5Mjg1MF19
 -->
