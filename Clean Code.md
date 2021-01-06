@@ -159,17 +159,17 @@ There is no replacement for due diligence. Every boundary condition, every corne
 	    public static final String DEFAULT_ROOT = "FitNesseRoot"; 
 	    public static final int DEFAULT_PORT = 80;  
 	    public static final int DEFAULT_VERSION_DAYS = 14;  
-    ...
-    
+	    ...
     }
+>The command-line arguments are parsed in the very first executable line of FitNesse. The default values of those arguments are specified at the top of the Argument class. You don’t have to go looking in low levels of the system for statements like this one:
 
-The command-line arguments are parsed in the very first executable line of FitNesse. The default values of those arguments are specified at the top of the Argument class. You don’t have to go looking in low levels of the system for statements like this one:
+    if (arguments.port == 0) // use 80 by default
 
-if (arguments.port == 0) // use 80 by default
+>The configuration constants reside at a very high level and are easy to change. They get passed down to the rest of the application. The lower levels of the application do not own the values of these constants.
 
-The configuration constants reside at a very high level and are easy to change. They get passed down to the rest of the application. The lower levels of the application do not own the values of these constants.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDMxODMwMTksODcxNzEyOTUwLDU5Nj
+eyJoaXN0b3J5IjpbLTExOTIxMjEzMDMsODcxNzEyOTUwLDU5Nj
 Q2MDU0OSw1OTQ4MDcxNDQsLTM3MDQ1ODQ2Miw5MzEwNDk4NjYs
 LTU0NzYxMjk4NCwxODgzMDE1ODM2LDgzMTg5Mjg1MF19
 -->
