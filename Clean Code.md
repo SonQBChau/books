@@ -218,9 +218,18 @@ There is no replacement for due diligence. Every boundary condition, every corne
 	    return score; 
 	}
 
+**Use Long Names for Long Scopes**
+>The length of a name should be related to the length of the scope. You can use very short variable names for tiny scopes, but for big scopes you should use longer names.
+Variable names like i and j are just fine if their scope is five lines long. Consider this snippet from the old standard “Bowling Game”:
+
+    private void rollMany(int n, int pins) {
+	    for (int i=0; i<n; i++) 
+		    g.roll(pins);
+    }
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNjc5MjgwMiwxMjI5NjY1NDI0LC0xMT
-kyMTIxMzAzLDg3MTcxMjk1MCw1OTY0NjA1NDksNTk0ODA3MTQ0
-LC0zNzA0NTg0NjIsOTMxMDQ5ODY2LC01NDc2MTI5ODQsMTg4Mz
-AxNTgzNiw4MzE4OTI4NTBdfQ==
+eyJoaXN0b3J5IjpbMTE4NTg0NzQ5NSwtMjM2NzkyODAyLDEyMj
+k2NjU0MjQsLTExOTIxMjEzMDMsODcxNzEyOTUwLDU5NjQ2MDU0
+OSw1OTQ4MDcxNDQsLTM3MDQ1ODQ2Miw5MzEwNDk4NjYsLTU0Nz
+YxMjk4NCwxODgzMDE1ODM2LDgzMTg5Mjg1MF19
 -->
