@@ -230,11 +230,14 @@ Variable names like i and j are just fine if their scope is five lines long. Con
 >A test suite should test everything that could possibly break. The tests are insufficient so long as there are conditions that have not been explored by the tests or calculations that have not been validated.
 
 **Use a Coverage Tool!**
+>Coverage tools reports gaps in your testing strategy. They make it easy to find modules, classes, and functions that are insufficiently tested. Most IDEs give you a visual indication, marking lines that are covered in green and those that are uncovered in red. This makes it quick and easy to find if or catch statements whose bodies haven’t been checked.
 
+**Don’t Skip Trivial Tests**
+>They are easy to write and their documentary value is higher than the cost to produce them.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDMzNTM4MTMsMTE4NTg0NzQ5NSwtMj
-M2NzkyODAyLDEyMjk2NjU0MjQsLTExOTIxMjEzMDMsODcxNzEy
-OTUwLDU5NjQ2MDU0OSw1OTQ4MDcxNDQsLTM3MDQ1ODQ2Miw5Mz
-EwNDk4NjYsLTU0NzYxMjk4NCwxODgzMDE1ODM2LDgzMTg5Mjg1
-MF19
+eyJoaXN0b3J5IjpbMTExMTM4NDg3MSwxMTg1ODQ3NDk1LC0yMz
+Y3OTI4MDIsMTIyOTY2NTQyNCwtMTE5MjEyMTMwMyw4NzE3MTI5
+NTAsNTk2NDYwNTQ5LDU5NDgwNzE0NCwtMzcwNDU4NDYyLDkzMT
+A0OTg2NiwtNTQ3NjEyOTg0LDE4ODMwMTU4MzYsODMxODkyODUw
+XX0=
 -->
