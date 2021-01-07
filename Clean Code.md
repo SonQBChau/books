@@ -234,10 +234,14 @@ Variable names like i and j are just fine if their scope is five lines long. Con
 
 **Don’t Skip Trivial Tests**
 >They are easy to write and their documentary value is higher than the cost to produce them.
+
+**Test Boundary Conditions**
+>Take special care to test boundary conditions. We often get the middle of an algorithm right but misjudge the boundaries.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMTM4NDg3MSwxMTg1ODQ3NDk1LC0yMz
-Y3OTI4MDIsMTIyOTY2NTQyNCwtMTE5MjEyMTMwMyw4NzE3MTI5
-NTAsNTk2NDYwNTQ5LDU5NDgwNzE0NCwtMzcwNDU4NDYyLDkzMT
-A0OTg2NiwtNTQ3NjEyOTg0LDE4ODMwMTU4MzYsODMxODkyODUw
-XX0=
+eyJoaXN0b3J5IjpbMTYyNDIxODQyNiwxMTExMzg0ODcxLDExOD
+U4NDc0OTUsLTIzNjc5MjgwMiwxMjI5NjY1NDI0LC0xMTkyMTIx
+MzAzLDg3MTcxMjk1MCw1OTY0NjA1NDksNTk0ODA3MTQ0LC0zNz
+A0NTg0NjIsOTMxMDQ5ODY2LC01NDc2MTI5ODQsMTg4MzAxNTgz
+Niw4MzE4OTI4NTBdfQ==
 -->
