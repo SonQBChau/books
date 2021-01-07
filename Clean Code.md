@@ -226,10 +226,15 @@ Variable names like i and j are just fine if their scope is five lines long. Con
 	    for (int i=0; i<n; i++) 
 		    g.roll(pins);
     }
+**Insufficient Tests**
+>A test suite should test everything that could possibly break. The tests are insufficient so long as there are conditions that have not been explored by the tests or calculations that have not been validated.
+
+**Use a Coverage Tool!**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NTg0NzQ5NSwtMjM2NzkyODAyLDEyMj
-k2NjU0MjQsLTExOTIxMjEzMDMsODcxNzEyOTUwLDU5NjQ2MDU0
-OSw1OTQ4MDcxNDQsLTM3MDQ1ODQ2Miw5MzEwNDk4NjYsLTU0Nz
-YxMjk4NCwxODgzMDE1ODM2LDgzMTg5Mjg1MF19
+eyJoaXN0b3J5IjpbLTEyNDMzNTM4MTMsMTE4NTg0NzQ5NSwtMj
+M2NzkyODAyLDEyMjk2NjU0MjQsLTExOTIxMjEzMDMsODcxNzEy
+OTUwLDU5NjQ2MDU0OSw1OTQ4MDcxNDQsLTM3MDQ1ODQ2Miw5Mz
+EwNDk4NjYsLTU0NzYxMjk4NCwxODgzMDE1ODM2LDgzMTg5Mjg1
+MF19
 -->
