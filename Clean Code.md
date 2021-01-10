@@ -4,6 +4,7 @@ A very popular book for software developer. My biggest complaint is the book exa
 
 Anyway, here are the highlights I have from reading this book.
 
+>Learning to write clean code is *hard work*. It requires more than just the knowledge of principles and patterns. You must *sweat* over it. You must practice it yourself, and watch yourself fail. You must watch others practice it and fail. You must see them stumble and retrace their steps. You must see them agonize over decisions and see the price they pay for making those decisions the wrong way.
 
 
 **The Rough Draft**
@@ -239,9 +240,9 @@ Variable names like i and j are just fine if their scope is five lines long. Con
 >Take special care to test boundary conditions. We often get the middle of an algorithm right but misjudge the boundaries.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0OTgzODI5NCwxNjI0MjE4NDI2LDExMT
-EzODQ4NzEsMTE4NTg0NzQ5NSwtMjM2NzkyODAyLDEyMjk2NjU0
-MjQsLTExOTIxMjEzMDMsODcxNzEyOTUwLDU5NjQ2MDU0OSw1OT
-Q4MDcxNDQsLTM3MDQ1ODQ2Miw5MzEwNDk4NjYsLTU0NzYxMjk4
-NCwxODgzMDE1ODM2LDgzMTg5Mjg1MF19
+eyJoaXN0b3J5IjpbMjEwMDg4Mjk4NywxNTQ5ODM4Mjk0LDE2Mj
+QyMTg0MjYsMTExMTM4NDg3MSwxMTg1ODQ3NDk1LC0yMzY3OTI4
+MDIsMTIyOTY2NTQyNCwtMTE5MjEyMTMwMyw4NzE3MTI5NTAsNT
+k2NDYwNTQ5LDU5NDgwNzE0NCwtMzcwNDU4NDYyLDkzMTA0OTg2
+NiwtNTQ3NjEyOTg0LDE4ODMwMTU4MzYsODMxODkyODUwXX0=
 -->
