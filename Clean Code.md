@@ -3,10 +3,10 @@
 ## Meaningful Names
 ### Use Intention-Revealing Names
 
-|  |  |
-|--|--|
-| :x:| `int d; // ` |
-| :white_check_mark: | `int elapsedTimeInDays;`|
+|  | :x: | :white_check_mark: |
+|--|--|--|
+| | `int d; // elapsed time in days` |
+|  | `int elapsedTimeInDays;`|
 
 
 A very popular book for software developer. My biggest complaint is the book examples are written in Java,  which is my least used language. Nevertheless, most of the princicles can be applied in general, but still, for some specific sections, I wished it was not Java. 
@@ -249,10 +249,10 @@ Variable names like i and j are just fine if their scope is five lines long. Con
 >Take special care to test boundary conditions. We often get the middle of an algorithm right but misjudge the boundaries.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MDY5Mzk3MCwtMTA4ODg4MDU1NiwyMT
-AwODgyOTg3LDE1NDk4MzgyOTQsMTYyNDIxODQyNiwxMTExMzg0
-ODcxLDExODU4NDc0OTUsLTIzNjc5MjgwMiwxMjI5NjY1NDI0LC
-0xMTkyMTIxMzAzLDg3MTcxMjk1MCw1OTY0NjA1NDksNTk0ODA3
-MTQ0LC0zNzA0NTg0NjIsOTMxMDQ5ODY2LC01NDc2MTI5ODQsMT
-g4MzAxNTgzNiw4MzE4OTI4NTBdfQ==
+eyJoaXN0b3J5IjpbLTEzNzY5ODQ3MzksLTEwODg4ODA1NTYsMj
+EwMDg4Mjk4NywxNTQ5ODM4Mjk0LDE2MjQyMTg0MjYsMTExMTM4
+NDg3MSwxMTg1ODQ3NDk1LC0yMzY3OTI4MDIsMTIyOTY2NTQyNC
+wtMTE5MjEyMTMwMyw4NzE3MTI5NTAsNTk2NDYwNTQ5LDU5NDgw
+NzE0NCwtMzcwNDU4NDYyLDkzMTA0OTg2NiwtNTQ3NjEyOTg0LD
+E4ODMwMTU4MzYsODMxODkyODUwXX0=
 -->
