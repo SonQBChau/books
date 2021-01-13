@@ -1,5 +1,9 @@
 # Clean Code: A Handbook of Agile Software Craftmanship
 
+## Meaningful Names
+### Use Intention-Revealing Names
+
+
 
 A very popular book for software developer. My biggest complaint is the book examples are written in Java,  which is my least used language. Nevertheless, most of the princicles can be applied in general, but still, for some specific sections, I wished it was not Java. 
 
@@ -241,10 +245,10 @@ Variable names like i and j are just fine if their scope is five lines long. Con
 >Take special care to test boundary conditions. We often get the middle of an algorithm right but misjudge the boundaries.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA5NTcxNjczLDIxMDA4ODI5ODcsMTU0OT
-gzODI5NCwxNjI0MjE4NDI2LDExMTEzODQ4NzEsMTE4NTg0NzQ5
-NSwtMjM2NzkyODAyLDEyMjk2NjU0MjQsLTExOTIxMjEzMDMsOD
-cxNzEyOTUwLDU5NjQ2MDU0OSw1OTQ4MDcxNDQsLTM3MDQ1ODQ2
-Miw5MzEwNDk4NjYsLTU0NzYxMjk4NCwxODgzMDE1ODM2LDgzMT
-g5Mjg1MF19
+eyJoaXN0b3J5IjpbLTIxMjcwNzkwNDksMjEwMDg4Mjk4NywxNT
+Q5ODM4Mjk0LDE2MjQyMTg0MjYsMTExMTM4NDg3MSwxMTg1ODQ3
+NDk1LC0yMzY3OTI4MDIsMTIyOTY2NTQyNCwtMTE5MjEyMTMwMy
+w4NzE3MTI5NTAsNTk2NDYwNTQ5LDU5NDgwNzE0NCwtMzcwNDU4
+NDYyLDkzMTA0OTg2NiwtNTQ3NjEyOTg0LDE4ODMwMTU4MzYsOD
+MxODkyODUwXX0=
 -->
