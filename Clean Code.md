@@ -2,6 +2,7 @@
 
 ## Meaningful Names
 ### Use Intention-Revealing Names
+>The name d reveals nothing. It does not evoke a sense of elapsed time, nor of days. We should choose a name that specifies what is being measured and the unit of that measurement
 
 | Variable | :x: | :white_check_mark: |
 |--|--|--|
@@ -251,10 +252,10 @@ Variable names like i and j are just fine if their scope is five lines long. Con
 >Take special care to test boundary conditions. We often get the middle of an algorithm right but misjudge the boundaries.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNjAxOTQ3NywtMTA4ODg4MDU1NiwyMT
-AwODgyOTg3LDE1NDk4MzgyOTQsMTYyNDIxODQyNiwxMTExMzg0
-ODcxLDExODU4NDc0OTUsLTIzNjc5MjgwMiwxMjI5NjY1NDI0LC
-0xMTkyMTIxMzAzLDg3MTcxMjk1MCw1OTY0NjA1NDksNTk0ODA3
-MTQ0LC0zNzA0NTg0NjIsOTMxMDQ5ODY2LC01NDc2MTI5ODQsMT
-g4MzAxNTgzNiw4MzE4OTI4NTBdfQ==
+eyJoaXN0b3J5IjpbLTE0NTg2NTE0NTAsLTEwODg4ODA1NTYsMj
+EwMDg4Mjk4NywxNTQ5ODM4Mjk0LDE2MjQyMTg0MjYsMTExMTM4
+NDg3MSwxMTg1ODQ3NDk1LC0yMzY3OTI4MDIsMTIyOTY2NTQyNC
+wtMTE5MjEyMTMwMyw4NzE3MTI5NTAsNTk2NDYwNTQ5LDU5NDgw
+NzE0NCwtMzcwNDU4NDYyLDkzMTA0OTg2NiwtNTQ3NjEyOTg0LD
+E4ODMwMTU4MzYsODMxODkyODUwXX0=
 -->
