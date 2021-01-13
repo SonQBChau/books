@@ -12,7 +12,7 @@ Single-letter names and numeric constants have a particular problem in that they
 
 Beware of using names which vary in small ways. How long does it take to spot the subtle difference between a `XYZControllerForEfficientHandlingOfStrings` in one module and, somewhere a little more distant, `XYZControllerForEfficientStorageOfStrings`? The words have frightfully similar shapes.
 
-
+### Class Names
 
 
 A very popular book for software developer. My biggest complaint is the book examples are written in Java,  which is my least used language. Nevertheless, most of the princicles can be applied in general, but still, for some specific sections, I wished it was not Java. 
@@ -255,11 +255,11 @@ Variable names like i and j are just fine if their scope is five lines long. Con
 >Take special care to test boundary conditions. We often get the middle of an algorithm right but misjudge the boundaries.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg0NjU4OTc3LC0yODg4NjQ0NDgsNzM2Mj
-M3ODM2LC0xMDg4ODgwNTU2LDIxMDA4ODI5ODcsMTU0OTgzODI5
-NCwxNjI0MjE4NDI2LDExMTEzODQ4NzEsMTE4NTg0NzQ5NSwtMj
-M2NzkyODAyLDEyMjk2NjU0MjQsLTExOTIxMjEzMDMsODcxNzEy
-OTUwLDU5NjQ2MDU0OSw1OTQ4MDcxNDQsLTM3MDQ1ODQ2Miw5Mz
-EwNDk4NjYsLTU0NzYxMjk4NCwxODgzMDE1ODM2LDgzMTg5Mjg1
-MF19
+eyJoaXN0b3J5IjpbLTQ2Mzc3NDc4LDM4NDY1ODk3NywtMjg4OD
+Y0NDQ4LDczNjIzNzgzNiwtMTA4ODg4MDU1NiwyMTAwODgyOTg3
+LDE1NDk4MzgyOTQsMTYyNDIxODQyNiwxMTExMzg0ODcxLDExOD
+U4NDc0OTUsLTIzNjc5MjgwMiwxMjI5NjY1NDI0LC0xMTkyMTIx
+MzAzLDg3MTcxMjk1MCw1OTY0NjA1NDksNTk0ODA3MTQ0LC0zNz
+A0NTg0NjIsOTMxMDQ5ODY2LC01NDc2MTI5ODQsMTg4MzAxNTgz
+Nl19
 -->
