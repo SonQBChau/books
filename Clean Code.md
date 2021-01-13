@@ -15,7 +15,7 @@ Beware of using names which vary in small ways. How long does it take to spot th
 ### Class Names
 Classes and objects should have noun or noun phrase names like `Customer`, `WikiPage`, `Account`, and `AddressParser`. Avoid words like `Manager`, `Processor`, `Data`, or `Info` in the name of a class. A class name should not be a verb.
 ### Method Names
-
+Methods should have verb or verb phrase names like `postPayment`, `deletePage`, or `save`. Accessors, mutators, and predicates should be named for their value and prefixed with `get`, `set`
 
 A very popular book for software developer. My biggest complaint is the book examples are written in Java,  which is my least used language. Nevertheless, most of the princicles can be applied in general, but still, for some specific sections, I wished it was not Java. 
 
@@ -257,11 +257,11 @@ Variable names like i and j are just fine if their scope is five lines long. Con
 >Take special care to test boundary conditions. We often get the middle of an algorithm right but misjudge the boundaries.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODcwNDk2NjQsMzg0NjU4OTc3LC0yOD
-g4NjQ0NDgsNzM2MjM3ODM2LC0xMDg4ODgwNTU2LDIxMDA4ODI5
-ODcsMTU0OTgzODI5NCwxNjI0MjE4NDI2LDExMTEzODQ4NzEsMT
-E4NTg0NzQ5NSwtMjM2NzkyODAyLDEyMjk2NjU0MjQsLTExOTIx
-MjEzMDMsODcxNzEyOTUwLDU5NjQ2MDU0OSw1OTQ4MDcxNDQsLT
-M3MDQ1ODQ2Miw5MzEwNDk4NjYsLTU0NzYxMjk4NCwxODgzMDE1
-ODM2XX0=
+eyJoaXN0b3J5IjpbLTIyMzYwMzc1NSwzODQ2NTg5NzcsLTI4OD
+g2NDQ0OCw3MzYyMzc4MzYsLTEwODg4ODA1NTYsMjEwMDg4Mjk4
+NywxNTQ5ODM4Mjk0LDE2MjQyMTg0MjYsMTExMTM4NDg3MSwxMT
+g1ODQ3NDk1LC0yMzY3OTI4MDIsMTIyOTY2NTQyNCwtMTE5MjEy
+MTMwMyw4NzE3MTI5NTAsNTk2NDYwNTQ5LDU5NDgwNzE0NCwtMz
+cwNDU4NDYyLDkzMTA0OTg2NiwtNTQ3NjEyOTg0LDE4ODMwMTU4
+MzZdfQ==
 -->
