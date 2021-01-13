@@ -13,6 +13,8 @@ Single-letter names and numeric constants have a particular problem in that they
 Beware of using names which vary in small ways. How long does it take to spot the subtle difference between a `XYZControllerForEfficientHandlingOfStrings` in one module and, somewhere a little more distant, `XYZControllerForEfficientStorageOfStrings`? The words have frightfully similar shapes.
 
 ### Class Names
+Classes and objects should have noun or noun phrase names like `Customer`, `WikiPage`, `Account`, and `AddressParser`. Avoid words like `Manager`, `Processor`, `Data`, or `Info` in the name of a class. A class name should not be a verb.
+### Method Names
 
 
 A very popular book for software developer. My biggest complaint is the book examples are written in Java,  which is my least used language. Nevertheless, most of the princicles can be applied in general, but still, for some specific sections, I wished it was not Java. 
@@ -255,11 +257,11 @@ Variable names like i and j are just fine if their scope is five lines long. Con
 >Take special care to test boundary conditions. We often get the middle of an algorithm right but misjudge the boundaries.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2Mzc3NDc4LDM4NDY1ODk3NywtMjg4OD
-Y0NDQ4LDczNjIzNzgzNiwtMTA4ODg4MDU1NiwyMTAwODgyOTg3
-LDE1NDk4MzgyOTQsMTYyNDIxODQyNiwxMTExMzg0ODcxLDExOD
-U4NDc0OTUsLTIzNjc5MjgwMiwxMjI5NjY1NDI0LC0xMTkyMTIx
-MzAzLDg3MTcxMjk1MCw1OTY0NjA1NDksNTk0ODA3MTQ0LC0zNz
-A0NTg0NjIsOTMxMDQ5ODY2LC01NDc2MTI5ODQsMTg4MzAxNTgz
-Nl19
+eyJoaXN0b3J5IjpbLTExODcwNDk2NjQsMzg0NjU4OTc3LC0yOD
+g4NjQ0NDgsNzM2MjM3ODM2LC0xMDg4ODgwNTU2LDIxMDA4ODI5
+ODcsMTU0OTgzODI5NCwxNjI0MjE4NDI2LDExMTEzODQ4NzEsMT
+E4NTg0NzQ5NSwtMjM2NzkyODAyLDEyMjk2NjU0MjQsLTExOTIx
+MjEzMDMsODcxNzEyOTUwLDU5NjQ2MDU0OSw1OTQ4MDcxNDQsLT
+M3MDQ1ODQ2Miw5MzEwNDk4NjYsLTU0NzYxMjk4NCwxODgzMDE1
+ODM2XX0=
 -->
