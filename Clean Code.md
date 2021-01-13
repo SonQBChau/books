@@ -3,6 +3,10 @@
 ## Meaningful Names
 ### Use Intention-Revealing Names
 
+|  |  |
+|--|--|
+| Don't | int d; // elapsed time in days |
+| Do | int elapsedTimeInDays;|
 
 
 A very popular book for software developer. My biggest complaint is the book examples are written in Java,  which is my least used language. Nevertheless, most of the princicles can be applied in general, but still, for some specific sections, I wished it was not Java. 
@@ -245,7 +249,7 @@ Variable names like i and j are just fine if their scope is five lines long. Con
 >Take special care to test boundary conditions. We often get the middle of an algorithm right but misjudge the boundaries.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjcwNzkwNDksMjEwMDg4Mjk4NywxNT
+eyJoaXN0b3J5IjpbLTEwODg4ODA1NTYsMjEwMDg4Mjk4NywxNT
 Q5ODM4Mjk0LDE2MjQyMTg0MjYsMTExMTM4NDg3MSwxMTg1ODQ3
 NDk1LC0yMzY3OTI4MDIsMTIyOTY2NTQyNCwtMTE5MjEyMTMwMy
 w4NzE3MTI5NTAsNTk2NDYwNTQ5LDU5NDgwNzE0NCwtMzcwNDU4
