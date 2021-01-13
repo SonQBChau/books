@@ -8,6 +8,7 @@ The name `d` reveals nothing. It does not evoke a sense of elapsed time, nor of 
 |--|--|--|
 | elapsed time in days| `int d` | `int elapsedTimeInDays` |
 
+Beware of using names which vary in small ways. How long does it take to spot the subtle difference between a `XYZControllerForEfficientHandlingOfStrings` in one module and, somewhere a little more distant, `XYZControllerForEfficientStorageOfStrings`? The words have frightfully similar shapes.
 
 
 
@@ -252,10 +253,10 @@ Variable names like i and j are just fine if their scope is five lines long. Con
 >Take special care to test boundary conditions. We often get the middle of an algorithm right but misjudge the boundaries.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM2MjM3ODM2LC0xMDg4ODgwNTU2LDIxMD
-A4ODI5ODcsMTU0OTgzODI5NCwxNjI0MjE4NDI2LDExMTEzODQ4
-NzEsMTE4NTg0NzQ5NSwtMjM2NzkyODAyLDEyMjk2NjU0MjQsLT
-ExOTIxMjEzMDMsODcxNzEyOTUwLDU5NjQ2MDU0OSw1OTQ4MDcx
-NDQsLTM3MDQ1ODQ2Miw5MzEwNDk4NjYsLTU0NzYxMjk4NCwxOD
-gzMDE1ODM2LDgzMTg5Mjg1MF19
+eyJoaXN0b3J5IjpbLTI4ODg2NDQ0OCw3MzYyMzc4MzYsLTEwOD
+g4ODA1NTYsMjEwMDg4Mjk4NywxNTQ5ODM4Mjk0LDE2MjQyMTg0
+MjYsMTExMTM4NDg3MSwxMTg1ODQ3NDk1LC0yMzY3OTI4MDIsMT
+IyOTY2NTQyNCwtMTE5MjEyMTMwMyw4NzE3MTI5NTAsNTk2NDYw
+NTQ5LDU5NDgwNzE0NCwtMzcwNDU4NDYyLDkzMTA0OTg2NiwtNT
+Q3NjEyOTg0LDE4ODMwMTU4MzYsODMxODkyODUwXX0=
 -->
